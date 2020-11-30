@@ -1,0 +1,70 @@
+/* ========================= */
+/* === Estilos generales === */
+/* ========================= */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #839b97;
+    color: whitesmoke;
+}
+
+/* ================== */
+/* === Formulario === */
+/* ================== */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.1%;
+    margin-left: 40%;
+}
+
+.titulo {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    margin-bottom: 0.5%;
+}
+
+.form-reg {
+    margin-top: 0.9%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.form-reg input {
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    width: 50%;
+}
+
+.form-reg label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.boton {
+    margin-top: 2%;    
+}
+
+.boton input {
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* ============= */
+/* === Tabla === */
+/* ============= */
+
+table {    
+    border: black 2px solid;
+}
+
+tr, td {
+    border: black 2px solid;
+}

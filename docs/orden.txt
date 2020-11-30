@@ -1,0 +1,25 @@
+
+        =============================================
+        === Orden de los archivos aplicación CRUD ===
+        =============================================
+
+Parte frontend:
+===============
+1º index.html       -> Crear el formualrio de envio
+2º css/styles.css   -> Crear los estilos de la aplicación
+
+Parte Backend Base de Datos:
+============================
+3º Crear la Base de Datos en xampp -> nombre bd -> crud
+4º Crear la tabla de la BD         -> nombre tabla -> usuarios
+5ª Crear los campos de la tabla    -> id, nombre, edad
+6º Insertar un valor de prueba
+
+Parte Backend PHP CRUD (Create/Read/Update/Delete):
+===================================================
+7ª Crear archivo de Conexión para la BD -> helpers/connect.php
+8º Crear archivo para CREAR registros   -> helpers/create.php
+9º Crear archivo para LEER registros    -> helpers/read.php
+10º Crear archivo para ACTUALIZAR registros -> helpers/update.php 
+11º Crear archivos para BORRAR registros -> helpers/delete.php 
+

@@ -1,0 +1,12 @@
+===================
+Para que se usa PHP
+===================
+
+    * PHP puede generar contenido de página dinámico
+    * PHP puede crear, abrir, leer, escribir, eliminar y cerrar archivos en el servidor 
+    * PHP puede recopilar datos de formulario 
+    * PHP puede enviar y recibir cookies 
+    * PHP puede agregar, eliminar, modificar datos en su base de datos 
+    * PHP puede ser usado para controlar el acceso de usuarios 
+    * PHP puede cifrar datos
+

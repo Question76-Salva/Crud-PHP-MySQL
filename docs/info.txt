@@ -1,0 +1,30 @@
+==================================================================================
+Existen dos métodos con los que el navegador puede enviar información al servidor:
+==================================================================================
+
+
+    * Método HTTP GET -> Se envía de la información de forma visible
+    * Método HTTP POST -> Se envía la información de forma NO visible
+
+Antes de que el navegador envíe la información proporcionada, la codifica mediante URL encoding, dando como resultado un Query String. Esta codificación es un esquema de keys y values separados por un (ampersand) &:
+
+Los espacios y otros caracteres no alfanuméricos se sustituyen. Una vez que la información es codificada, se envía al servidor.
+
+Método HTTP GET
+El método GET envía la información codificada del usuario en el header del HTTP request, directamente en la URL. La página web y la información codificada se separan por un interrogante ?:
+
+
+📌El método GET envía la información en la propia URL, estando limitada a 2000 caracteres.
+La información es visible por lo que con este método nunca se envía información sensible.
+No se pueden enviar datos binarios (archivos, imágenes...).
+En PHP los datos se administran con el array asociativo $_GET.
+
+
+
+📌Método HTTP POST
+Con el método HTTP POST también se codifica la información, pero ésta se envía a través del body del HTTP Request, por lo que no aparece en la URL.
+
+El método POST no tiene límite de cantidad de información a enviar.
+La información proporcionada no es visible, por lo que se puede enviar información sensible.
+Se puede usar para enviar texto normal así como datos binarios (archivos, imágenes...).
+PHP proporciona el array asociativo $_POST para acceder a la información enviada.
